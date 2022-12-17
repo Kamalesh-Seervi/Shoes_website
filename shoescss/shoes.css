@@ -1,0 +1,164 @@
+body{
+  margin: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+.nav{
+  display: flex;
+}
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color:rgb(250, 250, 250);
+}
+
+.topnav a:hover {
+  background-color:#EDEDED;
+  color: rgb(8, 1, 1);
+}
+.search-container {
+display: flex;
+flex-direction: row;
+
+
+}
+.input[type=text] {
+  margin-right: 10px;
+  font-size: 17px;
+  border:5px solid black;
+}
+
+/* .topnav .search-container button {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(0, 0, 0);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+}
+
+.topnav .search-container button:hover {
+  background:#EDEDED;
+}
+.topnav a, .topnav input[type=text], .topnav .search-container button {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+  } */
+
+.top{
+  width:100%;
+  height:95vh;
+  margin:0;
+  border-width: 20px;
+  display: flex;
+  border-image: linear-gradient(90deg, #708090 0%,lightgrey 70%);
+  border-image-slice: 1;
+  border-radius:;
+  
+}
+.white{
+  margin: 0;
+  background-color:white;
+  width: 70%;
+  background: url('https://images.unsplash.com/photo-1562183241-b937e95585b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80');
+  background-repeat: no-repeat;
+  font-size: 60px;
+  text-shadow:2px 2px 4px rgb(35, 35, 80);
+  
+}
+
+.grey{
+  margin: 0;
+  background-color:#EDEDED;
+  width:70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:flex-end;
+}
+.HOV{
+  margin:0px 0px 145px 0px;
+  height: 600px;
+  width:600px;
+  position:absolute;
+  
+}
+.blue:hover{
+    height:110px;
+    width:150px;
+}
+.blue:active{
+  height:110px;
+  width:150px;
+}
+.red:hover{
+  height: 110px;
+  width: 150px;
+}
+.black:hover{
+  height: 110px;
+  width: 150px;
+}
+.blue{
+  background-color: white;
+  height: 100px;
+  width: 140px;
+  margin: 0 15px 15px 15px;
+  box-shadow:5px 5px 4px grey;
+  border-radius:5px;
+  
+}
+.red{
+  background-color: white;
+  height: 100px;
+  width: 140px;
+  margin: 0 15px 15px 0;
+  box-shadow:5px 5px 4px grey;
+  border-radius:5px;
+}
+.black{
+  background-color: white;
+  height: 100px;
+  width: 140px;
+  margin: 0 15px 15px 0;
+  box-shadow:5px 5px 4px grey;
+  border-radius:5px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle{
+  margin:0;
+  width: 100%;
+  height:100vh;
+  background-color: black;
+}
